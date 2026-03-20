@@ -1,0 +1,233 @@
+[
+  {
+    "name": "blank-agent",
+    "description": "A minimal scaffold for building your own custom agent. Start here if you want to create something from scratch.",
+    "source": {
+      "type": "github",
+      "repo": "ShrimSource/shrimsource",
+      "subdir": "shrimsource-templates/blank-agent",
+      "branch": "main"
+    },
+    "capabilities": [
+      "llm"
+    ]
+  },
+  {
+    "name": "code-review-agent",
+    "description": "Reviews a given code snippet or GitHub PR URL for bugs, security issues, and style improvements.",
+    "source": {
+      "type": "github",
+      "repo": "ShrimSource/shrimsource",
+      "subdir": "shrimsource-templates/code-review-agent",
+      "branch": "main"
+    },
+    "capabilities": [
+      "llm"
+    ]
+  },
+  {
+    "name": "cold-email-agent",
+    "description": "Input a target company and your product offering to automatically gather company context and generate a highly personalized cold email.",
+    "source": {
+      "type": "github",
+      "repo": "ShrimSource/shrimsource",
+      "subdir": "shrimsource-templates/cold-email-agent",
+      "branch": "main"
+    },
+    "capabilities": [
+      "llm",
+      "search"
+    ]
+  },
+  {
+    "name": "competitor-agent",
+    "description": "Analyze market position and top competitors for any company.",
+    "source": {
+      "type": "github",
+      "repo": "ShrimSource/shrimsource",
+      "subdir": "shrimsource-templates/competitor-agent",
+      "branch": "main"
+    },
+    "capabilities": [
+      "llm",
+      "search"
+    ]
+  },
+  {
+    "name": "content-agent",
+    "description": "Generate social media posts, blog ideas, and marketing copy.",
+    "source": {
+      "type": "github",
+      "repo": "ShrimSource/shrimsource",
+      "subdir": "shrimsource-templates/content-agent",
+      "branch": "main"
+    },
+    "capabilities": [
+      "llm"
+    ]
+  },
+  {
+    "name": "landing-page-agent",
+    "description": "Input a product idea and generate landing page copy including headlines, features, and a call-to-action.",
+    "source": {
+      "type": "github",
+      "repo": "ShrimSource/shrimsource",
+      "subdir": "shrimsource-templates/landing-page-agent",
+      "branch": "main"
+    },
+    "capabilities": [
+      "llm"
+    ]
+  },
+  {
+    "name": "market-map-agent",
+    "description": "Input a market domain and generate a market map listing the top 10 companies by tier.",
+    "source": {
+      "type": "github",
+      "repo": "ShrimSource/shrimsource",
+      "subdir": "shrimsource-templates/market-map-agent",
+      "branch": "main"
+    },
+    "capabilities": [
+      "llm",
+      "search"
+    ]
+  },
+  {
+    "name": "newsletter-agent",
+    "description": "Curates recent news on a given topic and drafts a professional newsletter formatting.",
+    "source": {
+      "type": "github",
+      "repo": "ShrimSource/shrimsource",
+      "subdir": "shrimsource-templates/newsletter-agent",
+      "branch": "main"
+    },
+    "capabilities": [
+      "llm",
+      "search"
+    ]
+  },
+  {
+    "name": "pitch-deck-agent",
+    "description": "Analyzes a startup idea and generates an outline for a compelling 10-slide pitch deck.",
+    "source": {
+      "type": "github",
+      "repo": "ShrimSource/shrimsource",
+      "subdir": "shrimsource-templates/pitch-deck-agent",
+      "branch": "main"
+    },
+    "capabilities": [
+      "llm",
+      "search"
+    ]
+  },
+  {
+    "name": "research-agent",
+    "description": "Generate company research reports including competitor analysis, market positioning, and product summaries.",
+    "source": {
+      "type": "github",
+      "repo": "ShrimSource/shrimsource",
+      "subdir": "shrimsource-templates/research-agent",
+      "branch": "main"
+    },
+    "capabilities": [
+      "llm",
+      "search"
+    ]
+  },
+  {
+    "name": "resume-reviewer-agent",
+    "description": "Analyzes a resume against a job description, provides a roast and actionable improvement tips.",
+    "source": {
+      "type": "github",
+      "repo": "ShrimSource/shrimsource",
+      "subdir": "shrimsource-templates/resume-reviewer-agent",
+      "branch": "main"
+    },
+    "capabilities": [
+      "llm",
+      "search"
+    ]
+  },
+  {
+    "name": "saas-roast-agent",
+    "description": "Input a website and output a product roast with weaknesses and growth ideas.",
+    "source": {
+      "type": "github",
+      "repo": "ShrimSource/shrimsource",
+      "subdir": "shrimsource-templates/saas-roast-agent",
+      "branch": "main"
+    },
+    "capabilities": [
+      "llm",
+      "search"
+    ]
+  },
+  {
+    "name": "sales-agent",
+    "description": "Generate personalized cold emails for growth teams.",
+    "source": {
+      "type": "github",
+      "repo": "ShrimSource/shrimsource",
+      "subdir": "shrimsource-templates/sales-agent",
+      "branch": "main"
+    },
+    "capabilities": [
+      "llm"
+    ]
+  },
+  {
+    "name": "seo-agent",
+    "description": "Generate blog outlines, SEO keywords, and article drafts.",
+    "source": {
+      "type": "github",
+      "repo": "ShrimSource/shrimsource",
+      "subdir": "shrimsource-templates/seo-agent",
+      "branch": "main"
+    },
+    "capabilities": [
+      "llm",
+      "search"
+    ]
+  },
+  {
+    "name": "social-media-agent",
+    "description": "Generates a week of social media posts (X, LinkedIn) from a blog post or product URL.",
+    "source": {
+      "type": "github",
+      "repo": "ShrimSource/shrimsource",
+      "subdir": "shrimsource-templates/social-media-agent",
+      "branch": "main"
+    },
+    "capabilities": [
+      "llm"
+    ]
+  },
+  {
+    "name": "startup-idea-agent",
+    "description": "Input a domain and generate 5 startup ideas with market analysis.",
+    "source": {
+      "type": "github",
+      "repo": "ShrimSource/shrimsource",
+      "subdir": "shrimsource-templates/startup-idea-agent",
+      "branch": "main"
+    },
+    "capabilities": [
+      "llm",
+      "search"
+    ]
+  },
+  {
+    "name": "support-agent",
+    "description": "Analyze incoming support tickets to extract intent, evaluate urgency, search the knowledge base, and draft a response.",
+    "source": {
+      "type": "github",
+      "repo": "ShrimSource/shrimsource",
+      "subdir": "shrimsource-templates/support-agent",
+      "branch": "main"
+    },
+    "capabilities": [
+      "llm"
+    ]
+  }
+]

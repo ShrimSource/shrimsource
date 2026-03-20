@@ -1,0 +1,32 @@
+{
+    "name": "shrimsource",
+    "version": "0.1.0",
+    "description": "A lightweight AI agent workflow framework",
+    "type": "module",
+    "main": "./dist/index.js",
+    "types": "./dist/index.d.ts",
+    "exports": {
+        ".": {
+            "import": "./dist/index.js",
+            "types": "./dist/index.d.ts"
+        }
+    },
+    "files": [
+        "dist"
+    ],
+    "scripts": {
+        "build": "tsc",
+        "test": "vitest run",
+        "test:watch": "vitest",
+        "typecheck": "tsc --noEmit"
+    },
+    "devDependencies": {
+        "@types/node": "^25.3.5",
+        "typescript": "^5.7.0",
+        "vitest": "^3.0.0"
+    },
+    "dependencies": {
+        "openai": "latest"
+    },
+    "license": "MIT"
+}

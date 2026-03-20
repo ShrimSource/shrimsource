@@ -1,0 +1,31 @@
+{
+  "name": "create-shrimsource",
+  "version": "0.1.5",
+  "main": "dist/index.js",
+  "bin": {
+    "create-shrimsource": "dist/index.js"
+  },
+  "files": [
+    "dist",
+    "templates"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "author": "",
+  "license": "MIT",
+  "description": "",
+  "devDependencies": {
+    "@types/node": "^25.3.5",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3",
+    "vitest": "^3.0.0"
+  },
+  "dependencies": {
+    "@inquirer/prompts": "^8.3.0",
+    "cross-fetch": "^4.1.0",
+    "giget": "^3.1.2"
+  }
+}

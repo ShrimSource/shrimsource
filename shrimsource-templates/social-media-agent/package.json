@@ -1,0 +1,15 @@
+{
+    "name": "social-media-agent",
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "agent": "tsx --env-file=.env index.ts"
+    },
+    "dependencies": {
+        "shrimsource": "latest"
+    },
+    "devDependencies": {
+        "@types/node": "latest",
+        "tsx": "latest"
+    }
+}

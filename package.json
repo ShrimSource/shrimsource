@@ -1,0 +1,10 @@
+{
+  "name": "shrimsource-monorepo",
+  "private": true,
+  "workspaces": [
+    "create-shrimsource",
+    "shrimsource-core",
+    "shrimsource-templates",
+    "shrimsource-templates/*"
+  ]
+}

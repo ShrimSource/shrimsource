@@ -1,0 +1,11 @@
+node_modules/
+dist/
+*.tgz
+*.log
+*.txt
+.env
+.DS_Store
+test-registry.json
+temp-test/
+test-local/
+support-agent/

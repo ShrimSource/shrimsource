@@ -1,0 +1,39 @@
+# Dependencies
+node_modules/
+.npm
+/temp/
+/*.txt
+/storage/
+
+# Build outputs
+/dist/
+/create-shrimsource/dist/
+/shrimsource-core/dist/
+**/dist/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.pnp
+.pnp.js
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+logs/
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Vitest
+/coverage/
+test_output.txt
